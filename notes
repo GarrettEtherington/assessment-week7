@@ -1,0 +1,18 @@
+EL
+instert is 959.163 ms
+append is 2.6251 ms
+L
+instert is 7.9476 ms
+append is 581.6 μs 
+M
+insert is 176.1 μs
+append is 134.5 μs
+S
+insert is 45.2 μs
+append is 105.9 μs
+T
+insert is 33.8 μs
+append is 88.3 μs
+
+
+at first inserting takes an incomparalbe ammuont of time longer, this is because when inserting, every object in the array gets a new index. appending is so much quicker because it simply just slaps the objects on the end of the array, only adding the needed indexes, not changing every single one. As the arrays get smaller however, insert begins taking less time, i'd imigine this is because the arrays are so small that changing just ten indexes takes less time as well as the code being a wee bit shorter.
